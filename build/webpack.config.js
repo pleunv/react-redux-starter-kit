@@ -25,7 +25,7 @@ const webpackConfig = {
 // ------------------------------------
 const APP_ENTRY_PATHS = [
   'babel-polyfill',
-  paths.client('main.js')
+  paths.client('main.jsx')
 ]
 
 webpackConfig.entry = {
